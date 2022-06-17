@@ -10,7 +10,7 @@ router.get("/editUser/:id", userController.editUser)
 router.post("/editUser/:id", userController.editLogicUser)
 router.get("/deleteUser/:id", userController.deleteUser)
 router.get("/editStatus/:id", userController.editStatus)
-router.post("/editLogicStatus/:id", userController.editLogicStatus)
+router.post("/editStatus/:id", userController.editLogicStatus)
 
 
 
