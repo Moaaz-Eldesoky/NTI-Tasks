@@ -1,0 +1,16 @@
+{{>header}}
+{{>navbar}}
+<section class="container my-5">
+    <form method="post">
+        <div class="mb-3">
+            <input placeholder="name" name="name" class="form-control" value="{{userData.name}}">
+        </div>
+        <div class="mb-3">
+            <input placeholder="age" name="age" class="form-control" value="{{userData.age}}">
+        </div>
+        <div class="mb-3">
+            <button class="btn btn-primary">Update</button>
+        </div>
+    </form>
+</section>
+{{>footer}}
